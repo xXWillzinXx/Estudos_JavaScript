@@ -7,12 +7,12 @@
 //comentarios(será um array com [autor, mensagem])
 //e uma para indicar se está postada a postagem ou não
 
-function Postagem(titulo, mensagem, autor, vizulizacoes, online) {
+function Postagem(titulo, mensagem, autor, vizulizacoes) {
     this.titulo = titulo,
         this.mensagem = mensagem,
         this.autor = autor,
         this.vizulizacoes = vizulizacoes,
-        this.online = online,
+        this.online = false,
         this.comentarios = [];
 }
 
@@ -21,7 +21,7 @@ function fazerComentario(postagem, autor, mensagem) {
 }
 
 
-const postagem1 = new Postagem('eleições', 'bla bla bla', 'joãozinho', 123444, true);
+const postagem1 = new Postagem('eleições', 'bla bla bla', 'joãozinho', 123444);
 
 fazerComentario(postagem1, 'joãozinho', 'bla bla');
 fazerComentario(postagem1, 'carlos', 'glu glu bla bla')

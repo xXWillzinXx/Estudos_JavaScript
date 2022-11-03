@@ -1,0 +1,34 @@
+.page {
+    margin: 0px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.header {
+    padding: 8px;
+    background-color: aqua;
+}
+
+.headerText {
+    margin-block: 0px;
+}
+
+.body {
+    background-color: salmon;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bodyText {}
+
+.bodyInput {}
+
+.bodyButton {}
+
+.result {
+    background-color: salmon;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.resultText {}
